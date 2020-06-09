@@ -5,7 +5,6 @@ import QtWebEngine 1.8
 import QtQuick.Layouts 1.3
 import QtGraphicalEffects 1.0
 import org.kde.kirigami 2.11 as Kirigami
-
 import Mycroft 1.0 as Mycroft
 
 Mycroft.Delegate {
@@ -20,7 +19,7 @@ Mycroft.Delegate {
         objectName: "webengineview"
 
         profile {
-            httpUserAgent: "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Falkon/3.1.99 Chrome/77.0.3865.129 Safari/537.36"
+            httpUserAgent: "Mozilla/5.0 (X11; CrOS armv7l 6946.63.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36"
         }
 
         settings {
